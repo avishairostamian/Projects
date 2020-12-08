@@ -39,7 +39,7 @@ await page.waitForSelector('#username', {
 await page.type('#username', 'test339@gmail.com');
 
 
-await page.type('#password', 'Relojreloj101',);
+await page.type('#password', 'RLJRLJ',);
 
 await page.click('#login');
 
@@ -72,7 +72,7 @@ await page.waitForSelector('#creditCardInput-cardNumber', {
     visible: true,
   });
 
-await page.type('#creditCardInput-cardNumber', '4839137896213658',);
+await page.type('#creditCardInput-cardNumber', '2837446',);
 
 
 await page.waitForSelector('#creditCardInput-expiration', {
@@ -81,7 +81,7 @@ await page.waitForSelector('#creditCardInput-expiration', {
 
 await page.type('#creditCardInput-expiration', '1120',);
 
-await page.type('#creditCardInput-cvv', '992',);
+await page.type('#creditCardInput-cvv', '000',);
 
 await page.type('#creditCardInput-cardName', 'Test test',);
 
